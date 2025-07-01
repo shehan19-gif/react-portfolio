@@ -1,0 +1,36 @@
+#edu-container {
+    display: grid;
+    grid-gap: 1rem;
+    padding: 1rem;
+    font-family: var(--space-grotesk-font);
+}
+
+.edu-card {
+    display: grid;
+    grid-gap: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.edu-card .title {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    grid-gap: 1rem;
+    padding: 1rem;
+    border-bottom: 0.0625rem dashed;
+    padding-bottom: 1rem;
+}
+
+.edu-card .institute h3 {
+    text-align: center;
+}
+
+body.dark .edu-card {
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.75);
+}
+
+#edu-container hr {
+    border-style: dashed;
+    border-width: 0.125rem;
+}

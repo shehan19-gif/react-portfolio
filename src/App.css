@@ -1,0 +1,6 @@
+#app-section {
+  display: grid;
+  grid-template-columns: 300px 3fr 200px;
+  grid-gap: 1rem;
+  height: 100vh;
+}

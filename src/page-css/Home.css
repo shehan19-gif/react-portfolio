@@ -1,0 +1,70 @@
+#home-container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 2fr 1fr;
+    font-family: var(--space-grotesk-font);
+    padding: 1rem;
+}
+
+#data-container {
+    display: grid;
+    grid-gap: 1rem;
+    justify-items: center;
+}
+
+#profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#data-container h1 {
+    text-align: center;
+}
+
+#data-container h1 span {
+    font-size: 2.5rem;
+}
+
+#hero-btns {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 1rem;
+}
+
+#hero-btns button {
+    border: 0.125rem solid var(--secondary-color);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-family: var(--space-grotesk-font);
+    background-color: transparent;
+}
+
+#hero-btns button:hover {
+    background-color: var(--secondary-color);
+}
+
+#hero-btns button:hover .link {
+    color: var(--primary-color);
+}
+
+#hero-btns button .link {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+body.dark #hero-btns button {
+    border: 0.125rem solid var(--primary-color);
+}
+
+body.dark #hero-btns button .link {
+    color: var(--primary-color);
+}
+
+body.dark #hero-btns button:hover {
+    background-color: var(--primary-color);
+}
+
+body.dark #hero-btns button:hover .link {
+    color: var(--secondary-color);
+}

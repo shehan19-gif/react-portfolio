@@ -1,0 +1,114 @@
+#personal-main-container {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    font-family: var(--space-grotesk-font);
+}
+
+#details-section {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    padding: 0.25rem;
+    overflow-y: scroll;
+    display: grid;
+    grid-gap: 1rem;
+    justify-content: center;
+}
+
+#hero-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#hero-social-contacts {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 0.25rem;
+    justify-content: space-evenly;
+    display: none;
+}
+
+.sec-1 {
+    display: grid;
+    grid-gap: 0.5rem;
+}
+
+.sec-1 h2, h3 {
+    text-align: center;
+}
+
+#personal-data {
+    display: grid;
+    grid-gap: 0.5rem;
+    justify-items: space-evenly;
+}
+
+#personal-data table {
+    justify-self: center;
+}
+
+#hero-social-contacts i {
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+#hero-data .t-head {
+    font-weight: bold;
+}
+
+.sec-2 {
+    justify-self: center;
+    display: grid;
+    grid-gap: 0.5rem;
+}
+.sec-3 {
+    justify-self: center;
+    display: grid;
+    grid-gap: 0.5rem;
+}
+
+.sec-4 {
+    justify-self: center;
+    display: grid;
+    grid-gap: 0.5rem;
+}
+
+.sec-5 {
+    justify-self: center;
+}
+
+.sec-5 button {
+    border: none;
+    padding: 1rem 2rem;
+    background-color: var(--tomato-color);
+    color: var(--primary-color);
+    font-family: var(--space-grotesk-font);
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+#details-section progress {
+    width: 100%;
+    height: 0.75rem;
+    appearance: none;
+    border: 0.125rem solid var(--accent-color);
+    padding: 0.125rem;
+}
+
+#details-section progress::-webkit-progress-bar {
+    background-color: var(--accent-color);
+    border-radius: 0.5rem;
+}
+
+#details-section progress::-webkit-progress-value {
+  background-color: var(--accent-color);
+  border-radius: 0.5rem;
+}
+
+#details-section progress::-moz-progress-bar {
+  background-color: var(--accent-color);
+}

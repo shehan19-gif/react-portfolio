@@ -1,0 +1,64 @@
+#project-container {
+    padding: 1rem;
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.project-card {
+    display: grid;
+    grid-gap: 1rem;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    font-family: var(--space-grotesk-font);
+}
+
+.project-card .proj-img img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    align-self: center;
+}
+
+.project-card .proj-img {
+    border-bottom: 0.0625rem dashed;
+    padding-bottom: 1rem;
+}
+
+.project-card h2 {
+    border-bottom: 0.0625rem dashed;
+    padding-bottom: 1rem;
+}
+
+.project-card .prog-langs {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    border-bottom: 0.0625rem dashed;
+    padding-bottom: 1rem;
+}
+
+.project-card button {
+    border: none;
+    padding: 0.5rem 1rem;
+    font-family: var(--space-grotesk-font);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+#project-container hr {
+    border-width: 0.125rem;
+    border-style: dotted;
+}
+
+body.dark .project-card {
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.75);
+}
+
+body.dark .project-card button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
