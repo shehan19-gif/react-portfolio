@@ -1,12 +1,12 @@
 {
+  "homepage": "https://shehan19-gif.github.io/react-portfolio/",
   "name": "portfolio-web-project-01",
   "private": false,
   "version": "0.0.0",
-  "homepage": "https://shehan19-gif.github.io/react-portfolio/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
