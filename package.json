@@ -1,6 +1,6 @@
 {
   "name": "portfolio-web-project-01",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "homepage": "https://shehan19-gif.github.io/react-portfolio/",
   "type": "module",
