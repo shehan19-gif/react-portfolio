@@ -4,3 +4,9 @@
   grid-gap: 1rem;
   height: 100vh;
 }
+
+@media screen and (max-width: 1024px) {
+  #app-section {
+    grid-template-columns: 1fr;
+  }
+}

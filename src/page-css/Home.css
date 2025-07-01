@@ -68,3 +68,13 @@ body.dark #hero-btns button:hover {
 body.dark #hero-btns button:hover .link {
     color: var(--secondary-color);
 }
+
+@media screen and (max-width: 1024px) {
+    #home-container {
+        grid-template-columns: 1fr;
+    }
+
+    #profile-image img {
+        display: none;
+    }
+}

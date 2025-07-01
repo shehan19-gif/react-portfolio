@@ -96,3 +96,23 @@ body.dark .nav-link .active {
 body.dark .nav-link .active i {
     color: var(--secondary-color);
 }
+
+@media screen and (max-width: 1024px) {
+    #navigation-main-container {
+        display: grid;
+    }
+
+    #nav-bar {
+        position: relative;
+        width: unset;
+        grid-template-rows: unset;
+        grid-template-columns: 1fr 7fr;
+        grid-auto-flow: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    #nav-links {
+        grid-auto-flow: column;
+    }
+}
