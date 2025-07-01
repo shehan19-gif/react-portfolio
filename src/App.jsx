@@ -24,6 +24,7 @@ function App() {
             <Route path='experience' element={<Experience />}/>
             <Route path='projects' element={<Projects />}/>
             <Route path='contact' element={<Contact />}/>
+            <Route path='*' element={<Home />}/>
           </Route>
         </Routes>
         <Navigation />
