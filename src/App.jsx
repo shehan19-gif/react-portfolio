@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 import './App.css';
 
 import Personal from './pages/Personal';
@@ -24,7 +24,7 @@ function App() {
             <Route path='experience' element={<Experience />}/>
             <Route path='projects' element={<Projects />}/>
             <Route path='contact' element={<Contact />}/>
-            <Route path='*' element={<Home />}/>
+            <Route path='*' element={<Navigate to="/" replace />}/>
           </Route>
         </Routes>
         <Navigation />
