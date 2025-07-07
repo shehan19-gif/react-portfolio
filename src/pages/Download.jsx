@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import cv from '../assets/Deadlock.PDF';
+import cv from '../assets/cv_sample.pdf';
 
 const Download = () => {
 
